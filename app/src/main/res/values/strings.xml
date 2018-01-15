@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Password Manager</string>
+    <string name="password_service_hint">Enter a name for the service.</string>
+    <string name="password_service_label">Service</string>
+    <string name="password_username_hint">Enter your username.</string>
+    <string name="password_username_label">Username</string>
+    <string name="password_password_hint">Enter your password or generate one.</string>
+    <string name="password_password_label">Password</string>
+    <string name="password_description_hint">Enter a brief description.</string>
+    <string name="password_description_label">Description</string>
+    <string name="new_service">Add Service</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$d services</string>
+    <string name="delete_service">Delete Service</string>
+    <string name="empty_view_title">Uh oh!</string>
+    <string name="empty_view_message">There seems to be nothing here. To get started, tap anywhere to add a new service.</string>
+    <string name="help_developer_label">Developer:</string>
+    <string name="developer_name">Shivam Amin</string>
+    <string name="developer_website">https://www.ShivamAmin.com</string>
+    <string name="developer_github">https://www.github.com/ShivamAmin</string>
+</resources>

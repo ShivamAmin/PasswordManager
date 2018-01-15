@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:orientation="horizontal">
+
+    <!--<ImageView-->
+        <!--android:layout_width="48dp"-->
+        <!--android:layout_height="48dp"-->
+        <!--app:srcCompat="@android:drawable/ic_menu_edit"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/service_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service Title"
+                android:maxLines="1"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/service_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service Username"
+                android:maxLines="1"
+                android:layout_marginLeft="12dp"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/copyButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:tooltipText="Hold: Copy Username\nTap: Copy Password"
+        app:srcCompat="?attr/actionModeCopyDrawable"/>
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/deleteButton"-->
+        <!--android:layout_width="24dp"-->
+        <!--android:layout_height="24dp"-->
+        <!--android:tooltipText="Delete Password"-->
+        <!--app:srcCompat="@android:drawable/ic_menu_delete"/>-->
+
+</LinearLayout>
