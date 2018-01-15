@@ -16,7 +16,13 @@
     <string name="empty_view_title">Uh oh!</string>
     <string name="empty_view_message">There seems to be nothing here. To get started, tap anywhere to add a new service.</string>
     <string name="help_developer_label">Developer:</string>
-    <string name="developer_name">Shivam Amin</string>
+    <string name="help_website_label">Website:</string>
+    <string name="help_github_label">Github:</string>
+    <string name="help_project_label">Project:</string>
+    <string name="help_description_label">Descrition:</string>
+    <string name="project_developer">Shivam Amin</string>
     <string name="developer_website">https://www.ShivamAmin.com</string>
-    <string name="developer_github">https://www.github.com/ShivamAmin</string>
+    <string name="project_github">https://www.github.com/ShivamAmin</string>
+    <string name="project_website">https://www.github.com/ShivamAmin/ProjectManager</string>
+    <string name="project_description">Password Manager is an application that allows its users to store and manage passwords locally. Using SQLite technology, and sophisticated encryption methods, we ensure a safe password for every service. Please continue to follow the development of this application as I continue to update it.</string>
 </resources>
