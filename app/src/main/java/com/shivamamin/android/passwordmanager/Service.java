@@ -15,9 +15,6 @@ public class Service {
     public UUID getID() {
         return mID;
     }
-    public void setID(UUID ID) {
-        mID = ID;
-    }
     public String getService() {
         return mService;
     }
