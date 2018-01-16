@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/authentication_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="@string/authentication_title"/>
+
+    <ImageView
+        android:id="@+id/fingerprint_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/authentication_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            style="?android:listSeparatorTextViewStyle"
+            android:text="@string/authentication_password"/>
+        <EditText
+            android:id="@+id/authentication_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/authentication_password"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:hint="@string/authentication_placeholder"/>
+        <Button
+            android:id="@+id/authentication_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/authentication_edit_text"
+            android:text="@string/authentication_button"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -25,4 +25,8 @@
     <string name="project_github">https://www.github.com/ShivamAmin</string>
     <string name="project_website">https://www.github.com/ShivamAmin/ProjectManager</string>
     <string name="project_description">Password Manager is an application that allows its users to store and manage passwords locally. Using SQLite technology, and sophisticated encryption methods, we ensure a safe password for every service. Please continue to follow the development of this application as I continue to update it.</string>
+    <string name="authentication_title">Authentication</string>
+    <string name="authentication_password">Password: </string>
+    <string name="authentication_placeholder">Please enter your password...</string>
+    <string name="authentication_button">Authenticate</string>
 </resources>

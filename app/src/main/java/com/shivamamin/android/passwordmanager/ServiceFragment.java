@@ -53,7 +53,6 @@ public class ServiceFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflator, ViewGroup container, Bundle savedInstanceState) {
         View v = inflator.inflate(R.layout.fragment_password, container, false);
-
         mServiceField = (EditText) v.findViewById(R.id.service_name);
         mUsernameField = (EditText) v.findViewById(R.id.username);
         mPasswordField = (EditText) v.findViewById(R.id.password);
